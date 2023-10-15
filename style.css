@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Kanit&family=Raleway:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedgwick+Ave+Display&family=Sono:wght@500&family=Varela+Round&family=Yantramanav:wght@500&display=swap');
+
+:root{
+    --colorTextos: #49454567;
+}
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border border-box;
+}
+body{
+   font-family: 'Roboto';
+    background: #4568dc;
+    background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+    background: linear-gradient(to right, #b06ab3, #4568dc);
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: -30px;
+}
+
+section{
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 28%;
+    margin: auto;
+}
+.container{
+    position: relative;
+    margin: 45px; 
+}
+.resultado{
+    position: relative;
+    margin: 45px;
+ 
+}
+
+.dni{
+    background: none;
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #5e5d5d;
+    border-bottom: 1px solid var(--colorTextos);
+    transition: 0.5 ease-in-out all;
+    
+}
+
+.dni:focus{
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position:absolute;    
+}
+button{
+    cursor: pointer;
+    background: #4568dc;
+    background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+    background: linear-gradient(to right, #b06ab3, #4568dc);
+    border: none;
+    display: block;
+    border-radius: 18px;
+    width: 70%;
+    margin: 10px auto;
+    color: #FFF;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: -20px;
+    font-family:'Roboto';
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-top: 10px;
+    color: #383838;
+}
+input{
+    padding: 6px 20px 10px 84px;
+    outline: none;
+}
+p{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
