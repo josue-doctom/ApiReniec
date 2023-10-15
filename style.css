@@ -173,15 +173,7 @@ p{
 @media screen and (max-width:500px){
     section {
         width: 80%;
-    }
-    .doc {
-        width: 80%; /* Hacer que el input ocupe el 100% del ancho disponible */
-        font-size: 14px; /* Cambiar el tamaño de fuente si es necesario */
-      }
-      .res input {
-        width: 100%;
-      }
-    
+    } 
 }
 
 
